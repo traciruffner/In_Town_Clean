@@ -1,0 +1,66 @@
+body{
+    width: 100%;
+    height: auto;
+    background-image:url("../images/tile%20floor.jpg");
+    background-size: cover;
+}
+
+.wrapper{
+    background-color: #152238;
+}
+
+.btn{
+    border: 2px solid #152238;
+}
+
+.video{
+    margin-top: 3em;
+    padding-bottom: 2em;
+}
+
+.call{
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 60%;
+}
+
+@media only screen and (max-width: 499px){
+   .header{
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+  }
+    .nav{
+        width: 100%;
+    }
+    
+    .btn{
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 500px) {
+    .header {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .nav{
+        display: block;
+        width: 100%;
+        padding-left: 4em;
+    }
+    .btn{
+        width: 48%;
+        
+    }
+}
+
+
+
+
+
+

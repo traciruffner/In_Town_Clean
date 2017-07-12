@@ -1,63 +1,136 @@
 body{
     width: 100%;
     height: auto;
-    background-image:url("../images/tile%20floor.jpg");
-    background-size: cover;
+    background-color: #152238;
+
 }
 
-.wrapper{
+.header{
     background-color: #152238;
+    width: 100%;
+    height: auto;
+    
 }
 
 .btn{
     border: 2px solid #152238;
 }
 
-.video{
-    margin-top: 3em;
-    padding-bottom: 2em;
+#insured{
+    color: white;
 }
 
-.call{
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 60%;
+#spacemaker{
+    height: 3em;
+    width: 100%;
+    position: relative;
+    clear:both;
+    background-color: #152238;
+    border-bottom: 8px solid yellow;
 }
 
-@media only screen and (max-width: 499px){
+@media only screen and (max-width: 749px){
    .header{
        width: 100%;
        margin-left: auto;
        margin-right: auto;
-  }
+    }
     .nav{
         width: 100%;
     }
     
     .btn{
-        width: 100%;
+        width: 45%;
+        margin-left: .75em;
+    }
+    
+    #logo{
+        width: 85%; 
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        padding: .5em;
+        border: 6px solid yellow;
+    }
+    #insured{
+        text-align: center;
     }
 }
 
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 750px) {
     .header {
-        width: 60%;
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .btn{
+        float: right;
+        margin-right: 1em;
+            
+    }
+    
+    #logo{
+        width: 30%;
+        height: auto;
+        float: left;
+        border-radius: 50%;
+        margin-left: 5em;
+        margin-bottom: 3em;
+        margin-top: .5em;
+        border: 8px solid yellow;
+    }
+    
+    #honest{
+        width: 75%;
         margin-left: auto;
         margin-right: auto;
     }
     
-    .nav{
-        display: block;
-        width: 100%;
-        padding-left: 4em;
-    }
-    .btn{
-        width: 48%;
+    #body{
+        background-color: lightgray;
         
     }
+    
+    #insured{
+        text-align: right;
+        font-size:3em;
+        font-family: sans-serif;
+        font-style: italic;
+        margin-right: 4em;
+        margin-top: 2em;
+    }
 }
+
+.footer{
+    width: 100%;
+    height: 5em;
+    background-color: #152238;
+    position: absolute;
+    margin-bottom: 0;
+    border-top: 8px solid yellow;
+    padding-top: 1em;
+}
+
+#contact{
+    color: white;
+    float: right;
+    margin-right: 2em;
+    margin-top: -.25em;
+    
+    
+}
+
+.share{
+    display: inline-block;
+    float: left;
+    height: 2em;
+    width: 2em;
+    margin-left: .75em;
+}
+
 
 
 

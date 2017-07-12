@@ -45,13 +45,15 @@ body{
     }
     
     #logo{
-        width: 85%; 
+        width: 65%; 
         height: auto;
         margin-left: auto;
         margin-right: auto;
         border-radius: 50%;
         padding: .5em;
         border: 6px solid yellow;
+        margin-top: .5em;
+        margin-bottom: .5em;
     }
     #insured{
         text-align: center;
